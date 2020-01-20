@@ -1,0 +1,41 @@
+name: digital_clock
+description: Digital clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  spritewidget: ^0.9.23
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: NeuchaRegular
+      fonts:
+      
+      #- asset: assets/fonts/DancingScript-Regular.ttf
+      #- asset: assets/fonts/Kalam-Regular.ttf
+      - asset: assets/fonts/Neucha-Regular.ttf
+      #- asset: assets/fonts/Pacifico-Regular.ttf
+      #- asset: assets/fonts/ShadowsIntoLight-Regular.ttf
+      #- asset: third_party/PressStart2P-Regular.ttf
+  assets:
+    - assets/clouds-0.png
+    - assets/clouds-1.png
+    - assets/clouds-2.png
+    - assets/ray.png
+    - assets/moon.png
+    - assets/sun.png
+    - assets/skyline_day.png
+    - assets/skyline_night.png
+    - assets/weathersprites.png
+    - assets/weathersprites.json
